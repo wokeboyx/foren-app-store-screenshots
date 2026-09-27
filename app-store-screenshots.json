@@ -10,7 +10,7 @@
   "locale": "en",
   "device": "iphone",
   "orientation": "portrait",
-  "appIcon": "",
+  "appIcon": "/app-icon.png",
   "slidesByDevice": {
     "iphone": [
       {
@@ -642,9 +642,9 @@
           "en": ""
         },
         "headline": {
-          "en": "All your currencies, one place"
+          "en": "For the people counting on you."
         },
-        "screenshot": "/screenshots/apple/iphone/{locale}/01.png"
+        "screenshot": "/feature-graphic-hero.png"
       }
     ]
   },

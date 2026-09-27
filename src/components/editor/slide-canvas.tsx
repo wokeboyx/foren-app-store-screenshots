@@ -870,6 +870,25 @@ function FeatureGraphicCanvas({
   const inverted = slide.inverted ?? true;
   const bg = inverted ? theme.bgAlt : theme.bg;
   const colors = slideColors(theme, { ...slide, inverted });
+  const photo = resolveScreenshot(slide.screenshot, locale);
+  const photoSrc = photo ? img(photo) : "";
+
+  // A pre-composed marketing photo (e.g. exported straight from the brand site)
+  // already carries its own logo/copy baked in as pixels — render it full-bleed
+  // with nothing else overlaid, rather than the icon+name+tagline treatment below.
+  if (photoSrc) {
+    return (
+      <div style={{ width: "100%", height: "100%", position: "relative", overflow: "hidden" }}>
+        <img
+          src={photoSrc}
+          alt=""
+          draggable={false}
+          style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
+        />
+      </div>
+    );
+  }
+
   return (
     <div
       style={{
