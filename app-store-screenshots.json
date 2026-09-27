@@ -1,0 +1,663 @@
+{
+  "schemaVersion": 2,
+  "appName": "Foren",
+  "themeId": "foren",
+  "fontId": "palatino",
+  "connectedCanvas": true,
+  "locales": [
+    "en"
+  ],
+  "locale": "en",
+  "device": "iphone",
+  "orientation": "portrait",
+  "appIcon": "",
+  "slidesByDevice": {
+    "iphone": [
+      {
+        "id": "s_foren_1",
+        "layout": "hero",
+        "label": {
+          "en": "MEET FOREN"
+        },
+        "headline": {
+          "en": "All your currencies, one place"
+        },
+        "screenshot": "/screenshots/apple/iphone/{locale}/01.png",
+        "transforms": {
+          "caption": {
+            "x": 105.60000000000001,
+            "y": 258.12,
+            "width": 1108.8,
+            "height": 803.04,
+            "rotation": 0,
+            "zIndex": 4
+          },
+          "device": {
+            "x": 160.6901012417581,
+            "y": 696.0981361256547,
+            "width": 1013.6355043227666,
+            "height": 2064.96,
+            "rotation": 0,
+            "zIndex": 3
+          }
+        }
+      },
+      {
+        "id": "s_foren_2",
+        "layout": "device-bottom",
+        "label": {
+          "en": "SEND MONEY"
+        },
+        "headline": {
+          "en": "Send across borders in a few taps"
+        },
+        "screenshot": "/screenshots/apple/iphone/{locale}/02.png",
+        "inverted": true
+      },
+      {
+        "id": "s_foren_3",
+        "layout": "device-top",
+        "label": {
+          "en": "CURRENCY SWAP"
+        },
+        "headline": {
+          "en": "Swap currencies at great rates"
+        },
+        "screenshot": "/screenshots/apple/iphone/{locale}/03.png",
+        "inverted": false,
+        "transforms": {
+          "device": {
+            "x": 153.1822478386166,
+            "y": -286.8,
+            "width": 1013.6355043227666,
+            "height": 2064.96,
+            "rotation": 0,
+            "zIndex": 3
+          },
+          "caption": {
+            "x": 105.60000000000036,
+            "y": 1864.1999999999998,
+            "width": 1108.8,
+            "height": 803.0400000000001,
+            "rotation": 0,
+            "zIndex": 4
+          }
+        }
+      },
+      {
+        "id": "s_foren_4",
+        "layout": "device-bottom",
+        "label": {
+          "en": "TRANSPARENCY"
+        },
+        "headline": {
+          "en": "Track every payment, start to finish"
+        },
+        "screenshot": "/screenshots/apple/iphone/{locale}/04.png",
+        "transforms": {
+          "device": {
+            "x": 153.1822478386166,
+            "y": 745.68,
+            "width": 1013.6355043227666,
+            "height": 2064.96,
+            "rotation": 0,
+            "zIndex": 3
+          }
+        },
+        "inverted": true
+      },
+      {
+        "id": "s_foren_5",
+        "layout": "device-top",
+        "label": {
+          "en": "TOP UP"
+        },
+        "headline": {
+          "en": "Top up your way"
+        },
+        "screenshot": "/screenshots/apple/iphone/{locale}/05.png",
+        "transforms": {
+          "caption": {
+            "x": 105.60009991037987,
+            "y": 1860.4460515709354,
+            "width": 1109,
+            "height": 803,
+            "rotation": 0,
+            "zIndex": 4
+          },
+          "device": {
+            "x": 153.1822478386166,
+            "y": -286.80000000000007,
+            "width": 1013.6355043227666,
+            "height": 2064.96,
+            "rotation": 0,
+            "zIndex": 3
+          }
+        }
+      },
+      {
+        "id": "s_foren_7",
+        "layout": "device-bottom",
+        "label": {
+          "en": "Foren-Tag"
+        },
+        "headline": {
+          "en": "Get paid with your preferred username"
+        },
+        "screenshot": "/screenshots/apple/iphone/{locale}/07.png",
+        "transforms": {
+          "caption": {
+            "x": 105.60000000000036,
+            "y": 229.44,
+            "width": 1108.8,
+            "height": 803.0400000000001,
+            "rotation": 0,
+            "zIndex": 4
+          },
+          "device": {
+            "x": 153.1822478386166,
+            "y": 745.68,
+            "width": 1013.6355043227666,
+            "height": 2064.96,
+            "rotation": 0,
+            "zIndex": 3
+          }
+        },
+        "inverted": true
+      },
+      {
+        "id": "s_foren_6",
+        "layout": "hero",
+        "label": {
+          "en": "SECURITY"
+        },
+        "headline": {
+          "en": "Protected by identity checks & biometrics"
+        },
+        "screenshot": "/screenshots/apple/iphone/{locale}/06.png",
+        "inverted": false,
+        "typography": {
+          "labelScale": 0.85
+        },
+        "transforms": {
+          "caption": {
+            "x": 105.60000000000036,
+            "y": 258.12,
+            "width": 1108.8,
+            "height": 803.0400000000001,
+            "rotation": 0,
+            "zIndex": 4
+          },
+          "device": {
+            "x": 156.9361745401875,
+            "y": 774.93059685864,
+            "width": 1013.6355043227666,
+            "height": 2064.96,
+            "rotation": 0,
+            "zIndex": 3
+          }
+        }
+      }
+    ],
+    "android": [
+      {
+        "id": "s_foren_a1",
+        "layout": "hero",
+        "label": {
+          "en": "MEET FOREN"
+        },
+        "headline": {
+          "en": "All your currencies, one place"
+        },
+        "screenshot": "/screenshots/android/phone/{locale}/01.png",
+        "transforms": {
+          "device": {
+            "x": 203.22086998506273,
+            "y": 514.4621416177547,
+            "width": 678.5844380403457,
+            "height": 1470.266282420749,
+            "rotation": 0,
+            "zIndex": 3
+          }
+        }
+      },
+      {
+        "id": "s_foren_a2",
+        "layout": "device-bottom",
+        "label": {
+          "en": "SEND MONEY"
+        },
+        "headline": {
+          "en": "Send across borders in a few taps"
+        },
+        "screenshot": "/screenshots/android/phone/{locale}/02.png",
+        "transforms": {
+          "device": {
+            "x": 198.19469197459148,
+            "y": 486.7263877363191,
+            "width": 678.5844380403457,
+            "height": 1470.266282420749,
+            "rotation": 0,
+            "zIndex": 3
+          }
+        }
+      },
+      {
+        "id": "s_foren_a3",
+        "layout": "device-top",
+        "label": {
+          "en": "CURRENCY SWAP"
+        },
+        "headline": {
+          "en": "Swap currencies at great rates"
+        },
+        "screenshot": "/screenshots/android/phone/{locale}/03.png",
+        "inverted": true,
+        "transforms": {
+          "caption": {
+            "x": 86.40000000000055,
+            "y": 1363.6020942408377,
+            "width": 907.1999999999999,
+            "height": 537.6,
+            "rotation": 0,
+            "zIndex": 4
+          }
+        }
+      },
+      {
+        "id": "s_foren_a4",
+        "layout": "device-bottom",
+        "label": {
+          "en": "TRANSPARENCY"
+        },
+        "headline": {
+          "en": "Track every payment, start to finish"
+        },
+        "screenshot": "/screenshots/android/phone/{locale}/04.png",
+        "transforms": {
+          "device": {
+            "x": 193.1685139641204,
+            "y": 607.3546599876294,
+            "width": 678.5844380403457,
+            "height": 1470.266282420749,
+            "rotation": 0,
+            "zIndex": 3
+          }
+        }
+      },
+      {
+        "id": "s_foren_a5",
+        "layout": "device-top",
+        "label": {
+          "en": "TOP UP"
+        },
+        "headline": {
+          "en": "Top up your way"
+        },
+        "screenshot": "/screenshots/android/phone/{locale}/05.png",
+        "transforms": {
+          "caption": {
+            "x": 78.86073298429164,
+            "y": 1386.219895287958,
+            "width": 907.1999999999999,
+            "height": 537.6,
+            "rotation": 0,
+            "zIndex": 4
+          }
+        }
+      },
+      {
+        "id": "s_foren_a7",
+        "layout": "device-bottom",
+        "label": {
+          "en": "Foren-Tag"
+        },
+        "headline": {
+          "en": "Get paid with your preferred username"
+        },
+        "screenshot": "/screenshots/android/phone/{locale}/07.png",
+        "transforms": {
+          "device": {
+            "x": 205.73395899029947,
+            "y": 642.5379060609289,
+            "width": 678.5844380403457,
+            "height": 1470.266282420749,
+            "rotation": 0,
+            "zIndex": 3
+          },
+          "caption": {
+            "x": 86.39999999999964,
+            "y": 153.6,
+            "width": 907.1999999999999,
+            "height": 537.6,
+            "rotation": 0,
+            "zIndex": 4
+          }
+        }
+      },
+      {
+        "id": "s_foren_a6",
+        "layout": "hero",
+        "label": {
+          "en": "SECURITY"
+        },
+        "headline": {
+          "en": "Protected by identity checks & biometrics"
+        },
+        "screenshot": "/screenshots/android/phone/{locale}/06.png",
+        "inverted": true
+      }
+    ],
+    "ipad": [
+      {
+        "id": "s_mukcu1c5_a",
+        "layout": "hero",
+        "label": {
+          "en": "MEET YOUR APP"
+        },
+        "headline": {
+          "en": "Made for\nthe big screen."
+        },
+        "screenshot": ""
+      },
+      {
+        "id": "s_mukcu1c5_b",
+        "layout": "device-bottom",
+        "label": {
+          "en": "FEATURE 01"
+        },
+        "headline": {
+          "en": "Built for\nfocus."
+        },
+        "screenshot": ""
+      },
+      {
+        "id": "s_mukcu1c5_c",
+        "layout": "device-top",
+        "label": {
+          "en": "FEATURE 02"
+        },
+        "headline": {
+          "en": "Always within reach."
+        },
+        "screenshot": "",
+        "inverted": true
+      }
+    ],
+    "tvos": [
+      {
+        "id": "s_mukcu1c5_d",
+        "layout": "hero",
+        "label": {
+          "en": "MEET YOUR APP"
+        },
+        "headline": {
+          "en": "Made for\nthe living room."
+        },
+        "screenshot": ""
+      },
+      {
+        "id": "s_mukcu1c5_e",
+        "layout": "split-landscape",
+        "label": {
+          "en": "FEATURE 01"
+        },
+        "headline": {
+          "en": "One idea\nper screen."
+        },
+        "screenshot": ""
+      },
+      {
+        "id": "s_mukcu1c5_f",
+        "layout": "device-top",
+        "label": {
+          "en": "FEATURE 02"
+        },
+        "headline": {
+          "en": "Flip the contrast."
+        },
+        "screenshot": "",
+        "inverted": true
+      },
+      {
+        "id": "s_mukcu1c5_g",
+        "layout": "no-device",
+        "label": {
+          "en": "MORE"
+        },
+        "headline": {
+          "en": "And so\nmuch more."
+        },
+        "screenshot": ""
+      }
+    ],
+    "watchos": [
+      {
+        "id": "s_mukcu1c5_h",
+        "layout": "hero",
+        "label": {
+          "en": "MEET YOUR APP"
+        },
+        "headline": {
+          "en": "On your\nwrist."
+        },
+        "screenshot": ""
+      },
+      {
+        "id": "s_mukcu1c5_i",
+        "layout": "device-bottom",
+        "label": {
+          "en": "FEATURE 01"
+        },
+        "headline": {
+          "en": "One glance.\nDone."
+        },
+        "screenshot": ""
+      },
+      {
+        "id": "s_mukcu1c5_j",
+        "layout": "device-top",
+        "label": {
+          "en": "FEATURE 02"
+        },
+        "headline": {
+          "en": "Always\nwith you."
+        },
+        "screenshot": "",
+        "inverted": true
+      }
+    ],
+    "carplay": [
+      {
+        "id": "s_mukcu1c5_k",
+        "layout": "split-landscape",
+        "label": {
+          "en": "CARPLAY"
+        },
+        "headline": {
+          "en": "Eyes on\nthe road."
+        },
+        "screenshot": ""
+      },
+      {
+        "id": "s_mukcu1c5_l",
+        "layout": "device-bottom",
+        "label": {
+          "en": "FEATURE 01"
+        },
+        "headline": {
+          "en": "Everything, one tap away."
+        },
+        "screenshot": ""
+      },
+      {
+        "id": "s_mukcu1c5_m",
+        "layout": "device-top",
+        "label": {
+          "en": "FEATURE 02"
+        },
+        "headline": {
+          "en": "Made for every drive."
+        },
+        "screenshot": "",
+        "inverted": true
+      }
+    ],
+    "mac": [
+      {
+        "id": "s_mukcu1c5_n",
+        "layout": "hero",
+        "label": {
+          "en": "MEET YOUR APP"
+        },
+        "headline": {
+          "en": "Made for\nyour Mac."
+        },
+        "screenshot": ""
+      },
+      {
+        "id": "s_mukcu1c5_o",
+        "layout": "split-landscape",
+        "label": {
+          "en": "FEATURE 01"
+        },
+        "headline": {
+          "en": "Everything in\none window."
+        },
+        "screenshot": ""
+      },
+      {
+        "id": "s_mukcu1c5_p",
+        "layout": "device-top",
+        "label": {
+          "en": "FEATURE 02"
+        },
+        "headline": {
+          "en": "One shortcut away."
+        },
+        "screenshot": "",
+        "inverted": true
+      },
+      {
+        "id": "s_mukcu1c5_q",
+        "layout": "two-devices",
+        "label": {
+          "en": "FEATURE 03"
+        },
+        "headline": {
+          "en": "Work across windows."
+        },
+        "screenshot": "",
+        "screenshotSecondary": ""
+      },
+      {
+        "id": "s_mukcu1c5_r",
+        "layout": "no-device",
+        "label": {
+          "en": "MORE"
+        },
+        "headline": {
+          "en": "And so\nmuch more."
+        },
+        "screenshot": ""
+      }
+    ],
+    "android-7": [
+      {
+        "id": "s_foren_t7_1",
+        "layout": "hero",
+        "label": {
+          "en": "MEET FOREN"
+        },
+        "headline": {
+          "en": "All your currencies, one place"
+        },
+        "screenshot": "/screenshots/android/tablet-7/portrait/{locale}/01.png"
+      },
+      {
+        "id": "s_foren_t7_2",
+        "layout": "split-landscape",
+        "label": {
+          "en": "CURRENCY SWAP"
+        },
+        "headline": {
+          "en": "Swap currencies at great rates"
+        },
+        "screenshot": "/screenshots/android/tablet-7/landscape/{locale}/03.png"
+      },
+      {
+        "id": "s_foren_t7_3",
+        "layout": "split-landscape",
+        "label": {
+          "en": "TRANSPARENCY"
+        },
+        "headline": {
+          "en": "Track every payment, start to finish"
+        },
+        "screenshot": "/screenshots/android/tablet-7/landscape/{locale}/04.png",
+        "inverted": true
+      }
+    ],
+    "android-10": [
+      {
+        "id": "s_foren_t10_1",
+        "layout": "hero",
+        "label": {
+          "en": "MEET FOREN"
+        },
+        "headline": {
+          "en": "All your currencies, one place"
+        },
+        "screenshot": "/screenshots/android/tablet-10/portrait/{locale}/01.png"
+      },
+      {
+        "id": "s_foren_t10_2",
+        "layout": "split-landscape",
+        "label": {
+          "en": "CURRENCY SWAP"
+        },
+        "headline": {
+          "en": "Swap currencies at great rates"
+        },
+        "screenshot": "/screenshots/android/tablet-10/landscape/{locale}/03.png"
+      },
+      {
+        "id": "s_foren_t10_3",
+        "layout": "split-landscape",
+        "label": {
+          "en": "TRANSPARENCY"
+        },
+        "headline": {
+          "en": "Track every payment, start to finish"
+        },
+        "screenshot": "/screenshots/android/tablet-10/landscape/{locale}/04.png",
+        "inverted": true
+      }
+    ],
+    "feature-graphic": [
+      {
+        "id": "s_foren_fg",
+        "layout": "feature-graphic",
+        "label": {
+          "en": ""
+        },
+        "headline": {
+          "en": "All your currencies, one place"
+        },
+        "screenshot": "/screenshots/apple/iphone/{locale}/01.png"
+      }
+    ]
+  },
+  "crossScreenMockupsByDevice": {
+    "iphone": [],
+    "android": [],
+    "android-7": [],
+    "android-10": [],
+    "feature-graphic": []
+  },
+  "importedFont": {
+    "src": "/fonts/imported/a028ae4b6e160c29.otf",
+    "format": "opentype",
+    "name": "Megafield-Bold"
+  }
+}
